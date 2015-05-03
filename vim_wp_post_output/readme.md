@@ -30,6 +30,7 @@ I redirected all the stderr and stdout outputs to a log file.
     Error: 
     <h1>Error establishing a database connection</h1>
     + echo roxalana_blog
+    ...
 
 ## output:
 
