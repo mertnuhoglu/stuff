@@ -23,4 +23,5 @@ I get the input data from my github profile page: https://github.com/mertnuhoglu
 
 	g/ /d
 	%s;\(.\+\);\1\thttps://github.com/mertnuhoglu/;
+	sort
 
