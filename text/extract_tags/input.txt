@@ -1,0 +1,18 @@
+_idea _gtd
+prepare a data analysis for national elections
+
+_example 
+http://www.r-bloggers.com/update-to-introduction-to-programming-econometrics-with-r/
+
+_sales
+qa webinar
+	ask people questions.
+	make a webinar and answer their questions.
+
+_marketing
+curate business analytics examples
+	make a webinar
+	make a youtube presentation
+	make a podcast
+	
+
