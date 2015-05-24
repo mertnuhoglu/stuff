@@ -1,0 +1,176 @@
+<url:#r=_gsec>
+<url:#r=ref>
+<url:#r=r_marks>
+<url:#r=last>
+<url:#r=last2>
+<url:#r=last3>
+<url:#r=last4>
+<url:#r=r_todo_project>
+<url:#r=r_todo_requirements>
+<url:#r=ref>
+
+_bysp 
+marks
+	marks for other notes: (notes.otl) id=r_marks
+		t	tefekkür
+			u end of tefekkür
+		s swipe (reference codes) or snippets
+			s study notes
+		p	pomodoro
+		r reference
+		l lan plan
+		j job list
+		m meta
+		w work in process (current work)
+		x unknown - could not name it
+		o other
+		i idea/inspiration that comes frequently
+		i	info
+		n my notes
+		p	parallel job goal
+		b main goal
+			c subgoal
+		a current job / mark at next line
+	marks for programming problems:
+		r reference
+		a current job
+		e example to compare
+			f example2
+		p parent function
+		for each file
+			a is current problem
+			b next/child problem
+			c next/child
+		problems distributed to several files
+			P main problem
+			Q caller/callee
+			R ..
+	marks for temporary problems:
+		t target (collect nodes to here)
+	marks for all files
+		N notes.otl next
+	marks for notes.otl
+		a,b,c for parallel tasks
+			e,f,g for nested tasks
+		a,b,c for nested tasks
+
+_id=r_lastid s_000
+
+_ref id=reportcurrent
+
+_ref id=reportlast
+
+_ref id=ref
+
+_wrk 20150524
+websocket-jquery usage
+tasks
+	explore the basic usage of websockets
+		opt
+			take R example
+			search in google
+			review your previous notes
+		loud thinking
+			read most basic websockets apps
+			find the most basic jquery function
+			test if it will interfere with websocket code
+		websockets research
+			steps
+				try to learn basics
+				Ask the authors
+			strategy
+				study websocket
+				ask questions to sof or forums
+					how to use ws such that the code is totally transparent to jquery
+			plan
+				read the source code of websockets apps
+					see if they are transparent to jquery
+					http://www.websocket.org/echo.html
+					https://github.com/vjwang/WebSocketBook
+					http://demo.kaazing.com/portfolio/
+					http://www.apress.com/downloadable/download/sample/sample_id/1407/
+					http://www.websocket.org/book.html
+				what to check?
+					i think it is enough to check only client side. this is the problematic side.
+					check for the most simple example where jquery, websocket is used together. 
+					just check the client html5 code
+			read websocket chat app
+				clone git project: https://github.com/vjwang/WebSocketBook
+					where?
+						/Users/mertnuhoglu/projects/js/WebSocketBook/ch2-websocket-api
+						websocket_client.html
+			read R app
+				script
+					/Users/mertnuhoglu/projects/stuff/js/websockets01
+					echo.R
+			is there any reactive example
+				research
+					rxjs
+				what about shiny? what does it have beneath?
+					git clone it
+					then search for
+						httpuv
+						runServer
+						websocket
+						ws
+					no, it has simple data binding scripts only for each widget
+				opt
+					search - basics
+					review reactive js libraries
+				review reactive js libraries
+					knockout.js
+						changes html elements
+					ractive.js
+						uses mustache
+					react
+						html code embedded in js
+					vue.js
+						directives
+					meteor
+						templates
+					socketstream
+						embedded html code
+					rxjs
+						directives
+				search - basics
+					promising
+						https://xgrommx.github.io/rx-book/WhyRx.html
+						http://socket.io/get-started/chat/
+					keywords
+						data binding
+						observer
+						pubsub pattern
+					search
+						socketio
+						difference of socketio and websockets
+					read http://thejackalofjavascript.com/websockets-and-sockets-io/
+					read http://davidwalsh.name/websocket
+				read http://davidwalsh.name/websocket
+					new project
+				read chat example
+					http://socket.io/get-started/chat/
+				jquery-socketio use
+					https://gist.github.com/anandgeorge/2814934
+					go with david's nodejs example first
+	next
+info
+	mental model
+		r
+			httpuv: ws server implementation
+		js
+			no need for ws library
+				new WebSocket is sufficient
+		models of data flow
+			form submit
+				init
+					js: ws = new WebSocket("ws://server")
+					r: runServer("server")
+				js: form onsubmit -> sendInput() -> ws.send ->
+				r-httpuv: -> ws$onMessage -> ws$send ->
+				js: -> ws.onmessage -> document.getElementById.appendChild(msg)
+			one side message sending
+				init
+					js: ws = new WebSocket("ws://echo.websocket.org")
+						window.addEventListener("load", setup);
+				js:
+					ws.onopen -> ws.send("Hello")
