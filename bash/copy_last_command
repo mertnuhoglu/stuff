@@ -1,0 +1,2 @@
+#!/bin/bash
+history 2 | awk '{$1=""; print $0}' | head -1 | perl -ne 'chomp and print' | pbcopy

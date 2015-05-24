@@ -1,0 +1,10 @@
+#!/bin/bash
+# usage:
+# tomp3 flv
+
+function tomp3() {
+	extension=$1
+	find . -maxdepth 1 -iname "*.$extension" -print0 | xargs -0 -I file ffmpeg -i file -b:a 192K -vn file.mp3
+}
+
+tomp3 $1
