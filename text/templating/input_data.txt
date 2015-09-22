@@ -1,0 +1,8 @@
+<url:/Users/mertnuhoglu/Dropbox/mynotes/book_implementing_analytics.otl>
+<url:/Users/mertnuhoglu/Dropbox/mynotes/book_for_dummies_data_mining.otl>
+<url:/Users/mertnuhoglu/Dropbox/mynotes/book_enterprise_anaytics_davenport.otl>
+<url:/Users/mertnuhoglu/Dropbox/mynotes/book_developing_analytic_talent.otl>
+<url:/Users/mertnuhoglu/Dropbox/mynotes/book_data_science_for_business.otl>
+<url:/Users/mertnuhoglu/Dropbox/mynotes/book_data_mining_with_weka.otl>
+<url:/Users/mertnuhoglu/Dropbox/mynotes/book_big_data_revolution.otl>
+<url:/Users/mertnuhoglu/Dropbox/mynotes/book_big_data_at_work.otl>
