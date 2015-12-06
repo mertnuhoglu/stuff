@@ -1,0 +1,2 @@
+#!/bin/sh
+tree > "/Users/mertnuhoglu/Dropbox (BTG)/BTG Team Folder/general/file_tree"

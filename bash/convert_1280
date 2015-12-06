@@ -1,0 +1,5 @@
+#!/bin/sh
+filename=$1
+basename=${filename%.*}
+target=${basename}_1280.jpg
+convert -resize 1280x720 $filename $target

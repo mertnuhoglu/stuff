@@ -6,17 +6,17 @@ body { font-family: Helvetica; }
 pre { margin: 0 }
 </style>
 <script>
-var ws = new WebSocket("ws://localhost:9454");
-ws.onmessage = function(msg) {
-  var msgDiv = document.createElement("pre");
-  msgDiv.innerHTML = msg.data.replace(/&/g, "&amp;").replace(/\</g, "&lt;");
-  document.getElementById("output").appendChild(msgDiv);
-}
-function sendInput() {
-  var input = document.getElementById('input');
-  ws.send(input.value);
-  input.value = '';
-}
+	var ws = new WebSocket("ws://localhost:9454");
+	ws.onmessage = function(msg) {
+		var msgDiv = document.createElement("pre");
+		msgDiv.innerHTML = msg.data.replace(/&/g, "&amp;").replace(/\</g, "&lt;");
+		document.getElementById("output").appendChild(msgDiv);
+	}
+	function sendInput() {
+		var input = document.getElementById('input');
+		ws.send(input.value);
+		input.value = '';
+	}
 </script>
 </head>
 <body>

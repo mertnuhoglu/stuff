@@ -1,0 +1,8 @@
+#!/bin/sh
+# usage: 
+# md2word_all_dirs.sh
+for dir in ./*/
+do
+		echo $dir
+		./md2word.sh $dir
+done

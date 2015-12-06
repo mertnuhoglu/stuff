@@ -1,0 +1,11 @@
+#!/bin/sh
+# usage: 
+# ./md2word.sh dir_name/
+directory=$1
+cd $directory
+for filename in *.md; do
+	basename=${filename%.*}
+	word=${basename}.docx
+	pandoc $filename -o $word
+done
+

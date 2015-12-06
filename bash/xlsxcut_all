@@ -1,0 +1,8 @@
+#!/bin/sh
+for filename in *.xlsx; do 
+	target=${filename%.*}.csv
+	target=${target// /-}
+	echo $target
+	xlsx2csv "${filename}" > $target 
+	csvcut -c $1 $target | sponge $target
+done

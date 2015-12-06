@@ -1,0 +1,9 @@
+#!/bin/bash
+#flvFILE=$(ls . | grep .flv)
+#for filename in $flvFILE
+find . -iname "*.flv" | while read filename
+do 
+ name=`echo "$filename" | sed -e "s/.flv$//g"`
+ ffmpeg -i "$filename" -b:a 192K -vn "$name.mp3"
+done
+

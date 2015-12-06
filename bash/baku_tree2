@@ -1,0 +1,3 @@
+#!/bin/sh
+(cd "/Users/mertnuhoglu/Dropbox/baku"; tree | sed 's/├\|─\|│\|└\| / /g' | sed 's/    /\t/g' > "/Users/mertnuhoglu/Dropbox/baku/file_tree.otl")
+(cd "/Users/mertnuhoglu/Dropbox (BTG)"; tree | sed 's/├\|─\|│\|└\| / /g' | sed 's/    /\t/g' >> "/Users/mertnuhoglu/Dropbox/baku/file_tree.otl")
