@@ -1,3 +1,4 @@
+source('utils.R')
 
 study_example01 = function() {
 	vars = read_csv("vars01.csv")
