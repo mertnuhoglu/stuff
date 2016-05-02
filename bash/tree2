@@ -1,0 +1,5 @@
+#!/bin/sh
+# usage:
+# tree2
+# produces the tree as indented text
+tree | sed 's/├\|─\|│\|└\| / /g' | sed 's/    /\t/g' 

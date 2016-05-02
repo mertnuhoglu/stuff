@@ -7,5 +7,6 @@ for filename in *.md; do
 	basename=${filename%.*}
 	word=${basename}.docx
 	pandoc $filename -o $word
+	echo $word
 done
 

@@ -1,68 +1,154 @@
 stuff
+
 All kinds of stuff stuffed here.
-Updated 21 hours ago
-Shell  0   0
-classify_books
-Updated 11 days ago
-CSS  0   0
-mertnuhoglu.github.io
-Updated 15 days ago
- 0   0
-datascience-examples
-Links to data science examples and exercises
-Updated 22 days ago
- 0   0
-resume
-My resume
-Updated 28 days ago
-VimL  0   0
-vim-dataflow-generator-r
-Generate the data flow documentation automatically for R scripts.
-Updated on Apr 4
-CSS  3   2
-data_analysis_istanbulcoders
-"Data Analysis Applications Using R" presentation for istanbulcoders
-Updated on Mar 26
-CSS  0   0
-slidify-demo-01
-Updated on Mar 26
-VimL  0   0
-dotfiles
-personal configuration related dotfiles
-Updated on Mar 13
- 0   0
+
+Updated 5 days ago
+HTML 0 0
 study
+
 Personal studies
-Updated on Mar 13
-VimL  0   0
-vim-mert-projects
-Updated on Jan 24
- 0   0
-data_analysis_training
-Updated on Jan 24
-CSS  0   0
-btgrubu_belgeart_login
-Updated on Aug 9, 2014
-VimL  0   0
-vim-infoman
-knowledge/information management commands for otl files (vim outliner)
-Updated on Aug 1, 2014
-VimL  0   0
-vim-mert-languages
-custom settings for various languages
-Updated on Aug 1, 2014
- 0   0
+
+Updated on Jan 3
+VimL 0 0
+dotfiles
+
+personal configuration related dotfiles
+
+Updated on Dec 6, 2015
+0 0
+my-vim-baku-project
+
+vim scripts specific for baku project
+
+Updated on Nov 26, 2015
+Ruby 0 0
+logstash-output-tcpevam
+
+This is a derivative of tcp plugin. It sends logs to multiple tcp servers by using the actor ids of logs
+
+Updated on Oct 27, 2015
+Ruby 0 1
+logstash-codec-evam
+
+logstash codecs for evam event syntax
+
+Updated on Oct 15, 2015
+0 10
+chevent
+
+forked from codeui/chevent
+
+Chevent
+
+Updated on Oct 7, 2015
+Shell 0 0
+classify_books
+
+Updated on Sep 30, 2015
+HTML 3 2
+data_analysis_presentations
+
+"Data Analysis Applications Using R" presentation for istanbulcoders
+
+Updated on Jul 22, 2015
+HTML 0 0
+blog_veribilimi
+
+Veri bilimi konusundaki blogum
+
+Updated on Jul 11, 2015
+HTML 0 0
+blog_datascience
+
+Personal jekyll based blog focused in data science
+
+Updated on Jul 11, 2015
+HTML 0 0
+jekyll_skeleton
+
+Skeleton for jekyll blogs
+
+Updated on Jul 11, 2015
+0 0
+datascience-examples
+
+Links to data science examples and exercises
+
+Updated on Jun 30, 2015
+CSS 0 8,014
+mertnuhoglu.github.io
+
+forked from barryclark/jekyll-now
+
+Build a Jekyll blog in minutes, without touching the command line.
+
+Updated on Jun 27, 2015
+R 5 0
+secim_verileri
+
+Tüm genel, yerel ve cb seçimlerine dair verileri toparlanmış bir veri kümesi haline getirir. Veri kümelerine erişim için: https://github.com/mertnuhoglu/secim_verileri/tree/master/data/memurlarnet/genel/collected
+
+Updated on Jun 4, 2015
+R 0 0
 datasciencecoursera
+
 Course repository
-Updated on Jul 8, 2014
-Java  0   0
+
+Updated on May 15, 2015
+0 0
+resume
+
+My resume
+
+Updated on Apr 6, 2015
+VimL 0 0
+vim-dataflow-generator-r
+
+Generate the data flow documentation automatically for R scripts.
+
+Updated on Apr 4, 2015
+VimL 0 0
+vim-mert-projects
+
+Updated on Jan 25, 2015
+0 0
+data_analysis_training
+
+Updated on Jan 24, 2015
+CSS 0 0
+btgrubu_belgeart_login
+
+Updated on Aug 9, 2014
+VimL 0 0
+vim-infoman
+
+knowledge/information management commands for otl files (vim outliner)
+
+Updated on Aug 1, 2014
+VimL 0 0
+vim-mert-languages
+
+custom settings for various languages
+
+Updated on Aug 1, 2014
+Java 0 0
 hellogitworld
+
 Sample hellogitworld repo for GitHub Training classes
+
 Updated on Feb 23, 2014
- 0   0
-testgit02
-Updated on Feb 23, 2014
- 1   0
-TestGit01
-to test git
-Updated on Apr 10, 2012
+0 146,075
+datasharing
+
+forked from jtleek/datasharing
+
+The Leek group guide to data sharing
+
+Updated on Nov 25, 2013
+1 79,650
+Spoon-Knife
+
+forked from octocat/Spoon-Knife
+
+This repo is for demonstration purposes only. Comments and issues may or may not be responded to.
+

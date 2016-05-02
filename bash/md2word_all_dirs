@@ -4,5 +4,5 @@
 for dir in ./*/
 do
 		echo $dir
-		./md2word.sh $dir
+		md2word $dir
 done

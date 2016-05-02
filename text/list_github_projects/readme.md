@@ -16,12 +16,18 @@ I get the input data from my github profile page: https://github.com/mertnuhoglu
 
 ## output
 
-	stuff	https://github.com/mertnuhoglu/
-	classify_books	https://github.com/mertnuhoglu/
+	stuff	https://github.com/mertnuhoglu/stuff
+	classify_books	https://github.com/mertnuhoglu/classify_books
 
 ## viml script
 
-	g/ /d
-	%s;\(.\+\);\1\thttps://github.com/mertnuhoglu/;
-	sort
-
+	function! ConvertGithubPage2ProjectList()
+		" projects/stuff/text/list_github_projects
+		g/forked/-2 d
+		g/forked/+2 d
+		g/ /d
+		g/^\s*$/d
+		%s#\(.\+\)#\1\thttps://github.com/mertnuhoglu/\1#
+		sort
+	endfunction
+	command! ConvertGithubPage2ProjectList call ConvertGithubPage2ProjectList()

@@ -1,0 +1,44 @@
+bmark -title="for: akifozerdem updated: Yesterday .. Today | TEUIS (T) | YouTrack" http://yt.teuis.net/issues/T?q=for%3A+akifozerdem+updated%3A+Yesterday+..+Today+ -k yttao2
+bmark -title="for: akifozerdem | TEUIS (T) | YouTrack" http://yt.teuis.net/issues/T?q=for%3A+akifozerdem+ -k yttao
+bmark -title="for: arifacar updated: Yesterday .. Today | TEUIS (T) | YouTrack" http://yt.teuis.net/issues/T?q=for%3A+arifacar+updated%3A+Yesterday+..+Today+ -k yttaa2
+bmark -title="for: arifacar | TEUIS (T) | YouTrack" http://yt.teuis.net/issues/T?q=for%3A+arifacar+ -k yttaa
+bmark -title="for: burakgungor updated: Yesterday .. Today | TEUIS (T) | YouTrack" http://yt.teuis.net/issues/T?q=for%3A+burakgungor+updated%3A+Yesterday+..+Today+ -k yttbg2
+bmark -title="for: burakgungor | TEUIS (T) | YouTrack" http://yt.teuis.net/issues/T?q=for%3A+burakgungor+ -k yttbg
+bmark -title="for: burcukural updated: Yesterday .. Today | TEUIS (T) | YouTrack" http://yt.teuis.net/issues/T?q=for%3A+burcukural+updated%3A+Yesterday+..+Today+ -k yttbk2
+bmark -title="for: burcukural | TEUIS (T) | YouTrack" http://yt.teuis.net/issues/T?q=for%3A+burcukural+ -k yttbk
+bmark -title="for: duyguserin updated: Yesterday .. Today | TEUIS (T) | YouTrack" http://yt.teuis.net/issues/T?q=for%3A+duyguserin+updated%3A+Yesterday+..+Today+ -k yttds2
+bmark -title="for: duyguserin | TEUIS (T) | YouTrack" http://yt.teuis.net/issues/T?q=for%3A+duyguserin+ -k yttds
+bmark -title="for: emredelioglu updated: Yesterday .. Today | TEUIS (T) | YouTrack" http://yt.teuis.net/issues/T?q=for%3A+emredelioglu+updated%3A+Yesterday+..+Today+ -k yttemd2
+bmark -title="for: emredelioglu | TEUIS (T) | YouTrack" http://yt.teuis.net/issues/T?q=for%3A+emredelioglu+ -k yttemd
+bmark -title="for: erdaldalkiran updated: Yesterday .. Today | TEUIS (T) | YouTrack" http://yt.teuis.net/issues/T?q=for%3A+erdaldalkiran+updated%3A+Yesterday+..+Today+ -k ytterd2
+bmark -title="for: erdaldalkiran | TEUIS (T) | YouTrack" http://yt.teuis.net/issues/T?q=for%3A+erdaldalkiran+ -k ytterd
+bmark -title="for: erdemgunay updated: Yesterday .. Today | TEUIS (T) | YouTrack" http://yt.teuis.net/issues/T?q=for%3A+erdemgunay+updated%3A+Yesterday+..+Today+ -k ytteg2
+bmark -title="for: erdemgunay | TEUIS (T) | YouTrack" http://yt.teuis.net/issues/T?q=for%3A+erdemgunay+ -k ytteg
+bmark -title="for: faridasalmanova updated: Yesterday .. Today | TEUIS (T) | YouTrack" http://yt.teuis.net/issues/T?q=for%3A+faridasalmanova+updated%3A+Yesterday+..+Today+ -k yttfs2
+bmark -title="for: faridasalmanova | TEUIS (T) | YouTrack" http://yt.teuis.net/issues/T?q=for%3A+faridasalmanova+ -k yttfs
+bmark -title="for: hikmethuseynov updated: Yesterday .. Today | TEUIS (T) | YouTrack" http://yt.teuis.net/issues/T?q=for%3A+hikmethuseynov+updated%3A+Yesterday+..+Today+ -k ytthh2
+bmark -title="for: hikmethuseynov | TEUIS (T) | YouTrack" http://yt.teuis.net/issues/T?q=for%3A+hikmethuseynov+ -k ytthh
+bmark -title="for: imdadhasanli updated: Yesterday .. Today | TEUIS (T) | YouTrack" http://yt.teuis.net/issues/T?q=for%3A+imdadhasanli+updated%3A+Yesterday+..+Today+ -k yttih2
+bmark -title="for: imdadhasanli | TEUIS (T) | YouTrack" http://yt.teuis.net/issues/T?q=for%3A+imdadhasanli+ -k yttih
+bmark -title="for: mehmanjafarov updated: Yesterday .. Today | TEUIS (T) | YouTrack" http://yt.teuis.net/issues/T?q=for%3A+mehmanjafarov+updated%3A+Yesterday+..+Today+ -k yttmj2
+bmark -title="for: mehmanjafarov | TEUIS (T) | YouTrack" http://yt.teuis.net/issues/T?q=for%3A+mehmanjafarov+ -k yttmj
+bmark -title="for: mehmetalicopurlar updated: Yesterday .. Today | TEUIS (T) | YouTrack" http://yt.teuis.net/issues/T?q=for%3A+mehmetalicopurlar+updated%3A+Yesterday+..+Today+ -k yttmac2
+bmark -title="for: mehmetalicopurlar | TEUIS (T) | YouTrack" http://yt.teuis.net/issues/T?q=for%3A+mehmetalicopurlar+ -k yttmac
+bmark -title="for: mertnuhoglu updated: Yesterday .. Today | TEUIS (T) | YouTrack" http://yt.teuis.net/issues/T?q=for%3A+mertnuhoglu+updated%3A+Yesterday+..+Today+ -k yttmn2
+bmark -title="for: mertnuhoglu | TEUIS (T) | YouTrack" http://yt.teuis.net/issues/T?q=for%3A+mertnuhoglu+ -k yttmn
+bmark -title="for: muraterim updated: Yesterday .. Today | TEUIS (T) | YouTrack" http://yt.teuis.net/issues/T?q=for%3A+muraterim+updated%3A+Yesterday+..+Today+ -k yttme2
+bmark -title="for: muraterim | TEUIS (T) | YouTrack" http://yt.teuis.net/issues/T?q=for%3A+muraterim+ -k yttme
+bmark -title="for: mustafamunjid updated: Yesterday .. Today | TEUIS (T) | YouTrack" http://yt.teuis.net/issues/T?q=for%3A+mustafamunjid+updated%3A+Yesterday+..+Today+ -k yttmm2
+bmark -title="for: mustafamunjid | TEUIS (T) | YouTrack" http://yt.teuis.net/issues/T?q=for%3A+mustafamunjid+ -k yttmm
+bmark -title="for: nurcahanmalik updated: Yesterday .. Today | TEUIS (T) | YouTrack" http://yt.teuis.net/issues/T?q=for%3A+nurcahanmalik+updated%3A+Yesterday+..+Today+ -k yttnm2
+bmark -title="for: nurcahanmalik | TEUIS (T) | YouTrack" http://yt.teuis.net/issues/T?q=for%3A+nurcahanmalik+ -k yttnm
+bmark -title="for: nurlanmirzayev updated: Yesterday .. Today | TEUIS (T) | YouTrack" http://yt.teuis.net/issues/T?q=for%3A+nurlanmirzayev+updated%3A+Yesterday+..+Today+ -k yttnmr2
+bmark -title="for: nurlanmirzayev | TEUIS (T) | YouTrack" http://yt.teuis.net/issues/T?q=for%3A+nurlanmirzayev+ -k yttnmr
+bmark -title="for: omeraoruc updated: Yesterday .. Today | TEUIS (T) | YouTrack" http://yt.teuis.net/issues/T?q=for%3A+omeraoruc+updated%3A+Yesterday+..+Today+ -k yttoo2
+bmark -title="for: omeraoruc | TEUIS (T) | YouTrack" http://yt.teuis.net/issues/T?q=for%3A+omeraoruc+ -k yttoo
+bmark -title="for: vusalmeherremov updated: Yesterday .. Today | TEUIS (T) | YouTrack" http://yt.teuis.net/issues/T?q=for%3A+vusalmeherremov+updated%3A+Yesterday+..+Today+ -k yttvm2
+bmark -title="for: vusalmeherremov | TEUIS (T) | YouTrack" http://yt.teuis.net/issues/T?q=for%3A+vusalmeherremov+ -k yttvm
+bmark -title="for: yuceltepekoy updated: Yesterday .. Today | TEUIS (T) | YouTrack" http://yt.teuis.net/issues/T?q=for%3A+yuceltepekoy+updated%3A+Yesterday+..+Today+ -k yttyt2
+bmark -title="for: yuceltepekoy | TEUIS (T) | YouTrack" http://yt.teuis.net/issues/T?q=for%3A+yuceltepekoy+ -k yttyt
+bmark -title="for: ziyasuleymanzadeh updated: Yesterday .. Today | TEUIS (T) | YouTrack" http://yt.teuis.net/issues/T?q=for%3A+ziyasuleymanzadeh+updated%3A+Yesterday+..+Today+ -k yttzs2
+bmark -title="for: ziyasuleymanzadeh | TEUIS (T) | YouTrack" http://yt.teuis.net/issues/T?q=for%3A+ziyasuleymanzadeh+ -k yttzs

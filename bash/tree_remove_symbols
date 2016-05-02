@@ -1,0 +1,4 @@
+#!/bin/sh
+# remove symbols in the output of tree command
+sed 's/├\|─\|│\|└\| / /g' | sed 's/    /\t/g' 
+

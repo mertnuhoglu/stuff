@@ -1,0 +1,2 @@
+bmark -title="for: %1$s updated: Yesterday .. Today | TEUIS (T) | YouTrack" http://yt.teuis.net/issues/T?q=for%%3A+%1$s+updated%%3A+Yesterday+..+Today+ -k ytt%2$s2
+bmark -title="for: %1$s | TEUIS (T) | YouTrack" http://yt.teuis.net/issues/T?q=for%%3A+%1$s+ -k ytt%2$s
