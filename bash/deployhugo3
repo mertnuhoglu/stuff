@@ -1,0 +1,9 @@
+#!/bin/sh
+USER=mertnuhoglu
+HOST=veribilimi3.mertnuhoglu.com
+DIR=webapps/veribilimi3
+
+hugo && rsync -avz --delete public/ ${USER}@${HOST}:~/${DIR}
+
+exit 0
+

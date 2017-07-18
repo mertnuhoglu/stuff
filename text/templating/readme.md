@@ -41,3 +41,19 @@ book_for_dummies_data_mining
 		template.txt
 			@var1@
 			 @var0@
+
+## Process
+
+1. create the following files:
+
+	problem##_template.txt
+	problem##_vars.csv
+
+2. open script.R
+
+copy function:
+
+	study_problem##
+
+3. run that function
+

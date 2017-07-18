@@ -1,0 +1,16 @@
+#!/bin/sh
+#<url:file:///~/Dropbox (Personal)/projects/stuff/bash/tsvsed>
+# usage:
+#	acksed "\/gis\/" "\/gis_frontend\/"
+#	acksed -n "\/gis\/" "\/gis_frontend\/"
+
+default_tsvsed=arg_tsvsed.tsv
+arg_tsvsed=${1:-$default_tsvsed}
+echo $arg_tsvsed
+
+while IFS=$'\t' read key replace
+do
+	echo $key
+	echo $replace
+	ack -l "$key" | xargs -n1 -d '\n' -I {} sed -i.bak -e "s#$key#$replace#g" {}
+done < $arg_tsvsed

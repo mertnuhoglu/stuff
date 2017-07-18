@@ -1,18 +1,34 @@
+#!/usr/bin/env Rscript
 source('utils.R')
 
 main = function() {
-	study_example03()
+	study_example04()
+}
+
+study_problem04 = function() {
+	data = read_csv("problem04_vars.csv")
+	t = readLines("problem04_template.txt") %>% paste(collapse = "\n")
+	#lapply(data[,, with=F], function(x) sprintf(t, x))
+	#lapply(data[,, with=T], function(x) sprintf(t, x))
+	#lapply(data, function(x) sprintf(t, x))
+	result = list()
+	for (i in 1:nrow(data)) {
+		x = data[i, ] %>% unlist
+		result = append(result, do.call(sprintf, c(list(t), x)))
+	}
+	result = unlist(result)
+	writeLines(paste(result), "problem04_output.txt")
 }
 
 study_problem03_a = function() {
-	data = fread("problem03_vars.csv")
+	data = read_csv("problem03_vars.csv")
 	t = readLines("problem03_template.txt") %>% paste(collapse = "\n")
 	#lapply(data[,, with=F], function(x) sprintf(t, x))
 	#lapply(data[,, with=T], function(x) sprintf(t, x))
 	#lapply(data, function(x) sprintf(t, x))
 	result = list()
 	for (i in 1:nrow(data)) {
-		x = data[i] %>% unlist
+		x = data[i, ] %>% unlist
 		result = append(result, do.call(sprintf, c(list(t), x)))
 	}
 	result = unlist(result)
@@ -31,7 +47,7 @@ study_problem02_c = function() {
 		result = append(result, do.call(sprintf, c(list(t), x)))
 	}
 	result = unlist(result)
-	writeLines(paste(result), "temp.txt")
+	writeLines(paste(result), "problem02_output.txt")
 }
 
 study_problem02_b = function() {

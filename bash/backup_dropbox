@@ -1,12 +1,29 @@
 #!/bin/sh
+# <url:file:///~/Dropbox (Personal)/projects/stuff/bash/backup_dropbox>
 # usage:
-cd "$HOME/Dropbox (BTG)"
-find -regex '.*\.\(R\|md\|otl\|sh\|shaape\)$' -exec zip "$HOME/Dropbox/projeler/btg/backup_dropbox_btg.zip" {} +
-find -regex '.*\.\(R\|md\|otl\|sh\|shaape\)$' -exec zip "TEUIS PROJECT 70-BUDGET/backup/backup_dropbox_btg_$(date +%Y%m%d_%H%M%S).zip" {} +
+dropbox_btg="$HOME/Dropbox (BTG)"
+backup_dir1="$HOME/Dropbox/projeler/btg"
+backup_dir2="$HOME/Dropbox (BTG)/Backup"
+rdb_scripts_dir="$dropbox_btg/TEUIS PROJECT 05-ANALYSIS/working_library/requirements_database/scripts/"
+cd "$dropbox_btg"
+find -regex '.*\.\(R\|md\|otl\|sh\|shaape\)$' -exec zip "$backup_dir1/backup_dropbox_btg_md.zip" {} +
+cp "$backup_dir1/backup_dropbox_btg_md.zip"  "$backup_dir2/backup_dropbox_btg_md_$(date +%Y%m%d_%H%M%S).zip"
 
 extensions="(xlsx)"
-excluded_folders="(inbox|.dropbox.cache|main_library|10users_alternative|10-Users|temp|progress_reports|versions_of_project_plans|devops|code|btg_team|Analysis|assets|__MACOSX|kariyernet_gis_expert_20151202|external_docs|software_tools|source_az|img|arcgis|azcad|data|progress_reports|other|10-Notes|prototyping|customer_sessions|BPS-03|10users_alternative|evaluations|upwork_jobs)"
-excluded_folders_partial_name="(temp|41|40|92|70|89|94|60|90|50|93|10|81)"
+excluded_folders="(test_data|35-TEST|inbox|.dropbox.cache|main_library|10users_alternative|10-Users|temp|progress_reports|versions_of_project_plans|devops|code|btg_team|Analysis|assets|__MACOSX|kariyernet_gis_expert_20151202|external_docs|software_tools|source_az|img|arcgis|azcad|data|progress_reports|other|10-Notes|prototyping|customer_sessions|BPS-03|10users_alternative|evaluations|upwork_jobs)"
+excluded_folders_partial_name="(temp|41|40|92|70|89|94|60|90|50|93|10|81|92)"
 excluded_files="(_az\.md$|_deprecated|conflicted)"
-find -L | ack "${extensions}\$" | ack -v "/${excluded_folders}/" | ack -v "${excluded_folders_partial_name}" | ack -v "${excluded_files}" | xargs -n1 -d '\n' zip "$HOME/Dropbox/projeler/btg/backup_dropbox_btg_xlsx.zip"
-find -L | ack "${extensions}\$" | ack -v "/${excluded_folders}/" | ack -v "${excluded_folders_partial_name}" | ack -v "${excluded_files}" | xargs -n1 -d '\n' zip "TEUIS PROJECT 70-BUDGET/backup/backup_dropbox_btg_xlsx_$(date +%Y%m%d_%H%M%S).zip"
+find -L | ack "${extensions}\$" | ack -v "/${excluded_folders}/" | ack -v "${excluded_folders_partial_name}" | ack -v "${excluded_files}" | xargs -n1 -d '\n' zip "$backup_dir1/backup_dropbox_btg_xlsx.zip"
+cp "$backup_dir1/backup_dropbox_btg_xlsx.zip"  "$backup_dir2/backup_dropbox_btg_xlsx_$(date +%Y%m%d_%H%M%S).zip"
+
+extensions="(csv)"
+cd "$rdb_scripts_dir"
+excluded_folders="(.dropbox.cache)"
+excluded_folders_partial_name="(nothing)"
+excluded_files="(_az\.md$|_deprecated|conflicted)"
+find -L | ack "${extensions}\$" | ack -v "/${excluded_folders}/" | ack -v "${excluded_folders_partial_name}" | ack -v "${excluded_files}" | xargs -n1 -d '\n' zip "$backup_dir1/backup_dropbox_btg_rdb_data.zip"
+cp "$backup_dir1/backup_dropbox_btg_rdb_data.zip"  "$backup_dir2/backup_dropbox_btg_rdb_data_$(date +%Y%m%d_%H%M%S).zip"
+
+
+
+

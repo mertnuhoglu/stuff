@@ -1,0 +1,31 @@
+#!/bin/sh
+#<url:file:///~/Dropbox (Personal)/projects/stuff/bash/acksed>
+# usage:
+#	acksed "\/gis\/" "\/gis_frontend\/"
+#	acksed -n "\/gis\/" "\/gis_frontend\/"
+
+while getopts ":n:" opt; do
+	case $opt in
+		n)
+			dry_run="True"
+			;;
+		\?)
+			dry_run="False"
+			;;
+	esac
+done
+if [ $dry_run = "True" ]; then 
+	match=$2
+	replace=$3
+	echo $match
+	echo $replace
+	ack -l "$match" | xargs -n1 -d '\n' -I {} echo {}
+else
+	match=$1
+	replace=$2
+	echo $match
+	echo $replace
+	ack -l "$match" | xargs -n1 -d '\n' -I {} echo {}
+	ack -l "$match" | xargs -n1 -d '\n' -I {} sed -i -e "s#$match#$replace#g" {}
+fi
+
