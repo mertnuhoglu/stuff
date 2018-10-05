@@ -1,0 +1,30 @@
+#!/bin/bash
+# ~/projects/stuff/bash/iso2utf8
+# usage:
+# iso2utf8 txt
+while getopts ":n:" opt; do
+	case $opt in
+		n)
+			dry_run="True"
+			;;
+		\?)
+			dry_run="False"
+			;;
+	esac
+done
+if [ $dry_run = "True" ]; then 
+	EXT=$2
+	for  file  in *.$EXT; do
+		echo $file
+	done
+else
+	EXT=$1
+	FROM_ENCODING="iso-8859-9"
+	TO_ENCODING="utf-8"
+	for  file  in *.$EXT; do
+		echo $file
+		iconv -f $FROM_ENCODING -t $TO_ENCODING "$file" > "$file.new" 
+		mv -f "$file.new" "$file"
+	done
+fi
+exit 0

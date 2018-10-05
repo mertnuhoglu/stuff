@@ -1,0 +1,13 @@
+#!/bin/sh
+# Refactoring tool to rename files
+# This script renames some file and then replaces all references 
+# to it in all files recursively.
+#
+# usage:
+# refactor_rename_file data/vrp_ddl_test_05_data.sql data/ddl_to_data_test05_data.sql
+
+OLD_FILE=$1
+NEW_FILE=$2
+git mv "${OLD_FILE}" "${NEW_FILE}"
+mv "${OLD_FILE}" "${NEW_FILE}"
+ack -l "${OLD_FILE}" | xargs -n1 -d '\n' -I {} sed -i -e "s#${OLD_FILE}#${NEW_FILE}#g" {}

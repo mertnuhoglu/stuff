@@ -1,0 +1,16 @@
+#/usr/bin/sed -f
+# ~/projects/stuff/bash/fix_iso_chars_in_utf8
+# usage:
+# sed -f ~/projects/stuff/bash/fix_iso_chars_in_utf8 diger.md
+s/Ä±/ı/g 
+s/Ã¶/ö/g 
+s/Ã§/ç/g 
+s/Ã¼/ü/g 
+s/Ä°/İ/g 
+s/Ã\x96/Ö/g 
+s/Ä\x9f/ğ/g 
+s/Å\x9f/ş/g 
+s/Å\x9e/Ş/g 
+s/Ã\x87/Ç/g 
+s/Ã\x9c/Ü/g 
+s/Â\x92/'/g

@@ -1,9 +1,0 @@
-#!/bin/sh
-USER=mertnuhoglu
-HOST=datascience.mertnuhoglu.com
-DIR=/srv/www/datascience.mertnuhoglu.com/html
-
-hugo && rsync -avz --delete public/ ${USER}@${HOST}:${DIR}
-
-exit 0
-
