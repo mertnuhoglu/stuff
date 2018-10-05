@@ -16,4 +16,5 @@ sourcesql="$source"'_'"$now"'.sql'
 (cd ~/webapps/$source/ ; zip -qr ~/files/backup/$source/$sourcezip * ;)
 (cd ~/webapps/$source/ ; wp db export ~/files/backup/$source/$sourcesql ;)
 (cd ~/webapps/$source/ ; wp export --dir=$HOME/files/backup/$source/ ;)
+ls ~/files/backup/$source
 
