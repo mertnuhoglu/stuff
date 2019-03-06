@@ -1,0 +1,20 @@
+#!/usr/bin/env Rscript
+library(magrittr)
+googledrive::drive_download(googledrive::as_id("1b3_1uRZmS9LxiBdfpCQxmin_WhEocDoIJ-4j2G_rfZE"), type = "txt", path = "/Users/mertnuhoglu/gdrive/Play Books Notes/Notes from Antifragile.txt", overwrite = T)
+googledrive::drive_download(googledrive::as_id("1gg5EOJoON006Y4SRPPV0oQDJ5Swsqh5EedyoTrE1luU"), type = "csv", path = "/Users/mertnuhoglu/gdrive/IFTTT/Pocket/Pocket.csv", overwrite = T)
+googledrive::drive_download(googledrive::as_id("1VvflYcQBU9lg9php5Pqh_HcrRtxCqBPsiThcXQVy1W8"), type = "csv", path = "/Users/mertnuhoglu/gdrive/IFTTT/New Twitter Followers.csv", overwrite = T)
+googledrive::drive_download(googledrive::as_id("1tg1_UAZfqH_gAzx-5tqIFaaJdgkS8-B4AbUNzdDdgpU"), type = "csv", path = "/Users/mertnuhoglu/gdrive/IFTTT/Pocket/New item archived.csv", overwrite = T)
+googledrive::drive_download(googledrive::as_id("1mNCt-rEuYAFUyU5BgaUz-BTJ6l_Gu2He"), type = "csv", path = "/Users/mertnuhoglu/gdrive/IFTTT/Google Contacts/Google Contacts.csv", overwrite = T)
+googledrive::drive_download(googledrive::as_id("1FDuKvGadr0Vqd7spWMJQHO3MKRSL5Wd4JLHX33_B1pA"), type = "csv", path = "/Users/mertnuhoglu/gdrive/IFTTT/Pocket/Any new item (2).csv", overwrite = T)
+googledrive::drive_download(googledrive::as_id("14WB_vWW-YITriYVZ1BI9io3D9rQI-ujdc8zkuXSmf_U"), type = "csv", path = "/Users/mertnuhoglu/gdrive/IFTTT/Pocket/Any new item (1).csv", overwrite = T)
+googledrive::drive_download(googledrive::as_id("1PSpaXX9CyfWM9DhchRmgynyOjIAc4pXAAzyTwaPLjZ8"), type = "csv", path = "/Users/mertnuhoglu/gdrive/IFTTT/Pocket/Any new item.csv", overwrite = T)
+googledrive::drive_download(googledrive::as_id("1AgNXrOtPDifh_TgsEjkzx6exJGxKnO915RkAYMstTZ0"), type = "csv", path = "/Users/mertnuhoglu/gdrive/IFTTT/Pocket/Articles I've Read.csv", overwrite = T)
+googledrive::drive_download(googledrive::as_id("19alNy-D8S3w0LJ-w9Im-CC5eQFJ8Xt-LVq8IBYf9ZxQ"), type = "csv", path = "/Users/mertnuhoglu/gdrive/IFTTT/Twitter/Liked tweets.csv", overwrite = T)
+googledrive::drive_download(googledrive::as_id("1iWj0uHBoaIUJ4Mf66wFGE1F6qXXWAAigVPN5cbxM-XI"), type = "csv", path = "/Users/mertnuhoglu/gdrive/IFTTT/Twitter/Liked tweets (1).csv", overwrite = T)
+googledrive::drive_download(googledrive::as_id("1IHPYhB2ITyjWotSGrYDgjSHjea0lK89HoQMdyQa8S1U"), type = "csv", path = "/Users/mertnuhoglu/gdrive/IFTTT/Twitter/Tweets by @mertnuhoglu (1).csv", overwrite = T)
+googledrive::drive_download(googledrive::as_id("1pLm0YbxMxaeEyg2ODP_HJ3AfBqh-92lBGZlKN-UE5to"), type = "csv", path = "/Users/mertnuhoglu/gdrive/IFTTT/Twitter/Tweets by @mertnuhoglu.csv", overwrite = T)
+googledrive::drive_download(googledrive::as_id("1-ftsP0SU-riXZjx1C7hmCa-RPFzMP0w_4X9ESX8WdGo"), type = "csv", path = "/Users/mertnuhoglu/gdrive/IFTTT/Twitter/Twitter mentions.csv", overwrite = T)
+
+#ifttt = googledrive::drive_ls("~/IFTTT/", recursive = T) %>%
+	#dplyr::select(-drive_resource)
+#readr::write_csv(ifttt, "/Users/mertnuhoglu/gdrive/IFTTT/files.csv")
