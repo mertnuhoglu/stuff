@@ -1,0 +1,9 @@
+﻿#!/bin/bash
+# /Users/mertnuhoglu/gdrive/shared/ozguremin/Kidnap.mp4
+VIDEO_FILE=$1
+# phrases.txt
+PHRASES=$2
+while read -r line; do
+	echo $line
+	/usr/local/bin/videogrep --padding 2500 --input "${VIDEO_FILE}" --search "${line}" --output "${line}.mp4"
+done < "${PHRASES}"
