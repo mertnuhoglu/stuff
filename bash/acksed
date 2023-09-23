@@ -19,13 +19,13 @@ if [ $dry_run = "True" ]; then
 	replace=$3
 	echo $match
 	echo $replace
-	rg -l "$match" | xargs -n1 -d '\n' -I {} echo {}
+	rg -l "$match" | gxargs -n1 -d '\n' -I {} echo {}
 else
 	match=$1
 	replace=$2
 	echo $match
 	echo $replace
-	rg -l "$match" | xargs -n1 -d '\n' -I {} echo {}
-	rg -l "$match" | xargs -n1 -d '\n' -I {} sed -i -e "s#$match#$replace#g" {}
+	rg -l "$match" | gxargs -n1 -d '\n' -I {} echo {}
+	rg -l "$match" | gxargs -n1 -d '\n' -I {} sed -i -e "s#$match#$replace#g" {}
 fi
 
